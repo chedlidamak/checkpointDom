@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="shortcut icon" href="#" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shopping Cart Smart Phones</title>
+		<link rel="stylesheet" href="../CSS/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+		/>
+	</head>
+	<body>
+		<div class="app-container">
+			<div class="app-bg">
+				<div class="left-side"></div>
+				<div class="right-side"></div>
+			</div>
+			<header>
+				<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">MyPhone</a>
+						<div class="collapse navbar-collapse" id="navbarScroll">
+							<ul
+								class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+								style="--bs-scroll-height: 100px"
+							>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										id="navbarScrollingDropdown"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Trademark
+									</a>
+									<ul
+										class="dropdown-menu"
+										aria-labelledby="navbarScrollingDropdown"
+									>
+										<li><a class="dropdown-item" href="#"> Iphone </a></li>
+										<li><a class="dropdown-item" href="#"> Samsung </a></li>
+										<li><a class="dropdown-item" href="#"> Oppo </a></li>
+										<li><a class="dropdown-item" href="#"> Xiao-Mi </a></li>
+										<li><a class="dropdown-item" href="#"> LG </a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										id="navbarScrollingDropdown"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Camera
+									</a>
+									<ul
+										class="dropdown-menu"
+										aria-labelledby="navbarScrollingDropdown"
+									>
+										<li><a class="dropdown-item" href="#">+200px</a></li>
+										<li><a class="dropdown-item" href="#">+100px</a></li>
+										<li><a class="dropdown-item" href="#">+50px</a></li>
+										<li><a class="dropdown-item" href="#">-50px</a></li>
+									</ul>
+								</li>
+							</ul>
+							<form class="d-flex" role="search">
+								<input
+									class="form-control me-2"
+									type="search"
+									placeholder="Search"
+									aria-label="Search"
+								/>
+								<button class="btn btn-outline-success" type="submit">
+									Search
+								</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</header>
+		</div>
+
+		<div class="products-list">
+			<div class="products">
+				<!-- push porducts here with JS -->
+			</div>
+			<div class="cart">
+				<div class="cart-header">
+					<div class="column1">Item</div>
+					<div class="column2">Unit price</div>
+					<div class="column3">Units</div>
+				</div>
+				<div class="cart-items">
+					<!-- render cart items here  with  JS -->
+				</div>
+				<div class="cart-footer">
+					<div class="subtotal">Price (0 items): $0</div>
+					<div class="checkout">Proceed to checkout</div>
+				</div>
+			</div>
+		</div>
+		<script src="../JavaScript/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js "></script>
+	</body>
+</html>
